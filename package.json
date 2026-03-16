@@ -1,0 +1,13 @@
+{
+  "name": "higuma-tools",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "release": "changeset publish --access public"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.8"
+  }
+}
