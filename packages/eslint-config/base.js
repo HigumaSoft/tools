@@ -26,6 +26,9 @@ const base = tseslint.config(
       globals: {
         ...globals.node,
       },
+      parserOptions: {
+        projectService: true,
+      },
     },
     plugins: {
       'simple-import-sort': simpleImportSort,

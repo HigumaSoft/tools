@@ -1,35 +1,18 @@
 {
   "name": "@higuma/eslint-config",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Shared ESLint flat configs for Higuma Soft projects.",
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "typescript",
-    "higuma"
-  ],
+  "keywords": ["eslint", "eslint-config", "typescript", "higuma"],
   "author": "Higuma Soft",
   "license": "MIT",
   "type": "module",
   "main": "./index.js",
   "types": "./index.d.ts",
   "exports": {
-    ".": {
-      "types": "./index.d.ts",
-      "default": "./index.js"
-    },
-    "./base": {
-      "types": "./base.d.ts",
-      "default": "./base.js"
-    },
-    "./react": {
-      "types": "./react.d.ts",
-      "default": "./react.js"
-    },
-    "./next": {
-      "types": "./next.d.ts",
-      "default": "./next.js"
-    }
+    ".": { "types": "./index.d.ts", "default": "./index.js" },
+    "./base": { "types": "./base.d.ts", "default": "./base.js" },
+    "./react": { "types": "./react.d.ts", "default": "./react.js" },
+    "./next": { "types": "./next.d.ts", "default": "./next.js" }
   },
   "files": [
     "*.js",
@@ -53,14 +36,8 @@
     "typescript-eslint": "^8.0.0"
   },
   "peerDependenciesMeta": {
-    "@next/eslint-plugin-next": {
-      "optional": true
-    },
-    "eslint-plugin-react": {
-      "optional": true
-    },
-    "eslint-plugin-react-hooks": {
-      "optional": true
-    }
+    "@next/eslint-plugin-next": { "optional": true },
+    "eslint-plugin-react": { "optional": true },
+    "eslint-plugin-react-hooks": { "optional": true }
   }
 }
