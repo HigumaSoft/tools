@@ -1,8 +1,12 @@
 {
   "name": "@higuma/tsconfig",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared TypeScript configurations for Higuma Soft projects.",
-  "keywords": ["typescript", "tsconfig", "higuma"],
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "higuma"
+  ],
   "author": "Higuma Soft",
   "license": "MIT",
   "homepage": "https://github.com/HigumaSoft/tools/tree/main/packages/tsconfig",
