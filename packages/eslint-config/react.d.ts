@@ -1,0 +1,4 @@
+import type { Linter } from 'eslint';
+
+declare const react: Linter.Config[];
+export default react;
