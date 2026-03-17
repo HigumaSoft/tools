@@ -2,17 +2,34 @@
   "name": "@higuma/eslint-config",
   "version": "0.1.4",
   "description": "Shared ESLint flat configs for Higuma Soft projects.",
-  "keywords": ["eslint", "eslint-config", "typescript", "higuma"],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript",
+    "higuma"
+  ],
   "author": "Higuma Soft",
   "license": "MIT",
   "type": "module",
   "main": "./index.js",
   "types": "./index.d.ts",
   "exports": {
-    ".": { "types": "./index.d.ts", "default": "./index.js" },
-    "./base": { "types": "./base.d.ts", "default": "./base.js" },
-    "./react": { "types": "./react.d.ts", "default": "./react.js" },
-    "./next": { "types": "./next.d.ts", "default": "./next.js" }
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./base": {
+      "types": "./base.d.ts",
+      "default": "./base.js"
+    },
+    "./react": {
+      "types": "./react.d.ts",
+      "default": "./react.js"
+    },
+    "./next": {
+      "types": "./next.d.ts",
+      "default": "./next.js"
+    }
   },
   "files": [
     "*.js",
@@ -23,21 +40,27 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@eslint/js": "^9.0.0",
+    "@eslint/js": "^10.0.0",
     "@next/eslint-plugin-next": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "eslint": "^9.0.0",
     "eslint-plugin-react": "^7.0.0",
-    "eslint-plugin-react-hooks": "^6.0.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
     "eslint-plugin-simple-import-sort": "^12.0.0",
     "eslint-plugin-unused-imports": "^4.0.0",
     "globals": "^15.0.0",
     "typescript-eslint": "^8.0.0"
   },
   "peerDependenciesMeta": {
-    "@next/eslint-plugin-next": { "optional": true },
-    "eslint-plugin-react": { "optional": true },
-    "eslint-plugin-react-hooks": { "optional": true }
+    "@next/eslint-plugin-next": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    }
   }
 }
